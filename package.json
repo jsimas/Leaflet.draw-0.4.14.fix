@@ -1,6 +1,6 @@
 {
   "name": "leaflet-draw",
-  "version": "0.4.14-FIX",
+  "version": "0.4.14-GeosatisPatch2",
   "description": "Vector drawing plugin for Leaflet",
   "devDependencies": {
     "eslint": "^3.5.0 <3.6.0",
@@ -62,7 +62,10 @@
       "name": "Jacob Toye"
     }
   ],
-  "license": "MIT",
+  "license": "Geosatis SA",
+  "publishConfig": {
+    "registry": "https://portal.geo-satis.com/nexus/repository/npm-private/"
+  },
   "readmeFilename": "README.md",
   "eslintConfig": {
     "root": true,
