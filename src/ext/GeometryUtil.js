@@ -64,7 +64,8 @@
 		// Returns a readable area string in yards or metric.
 		// The value will be rounded as defined by the precision option object.
 		readableArea: function (area, isMetric, precision) {
-			var areaStr,
+			var type,
+				areaStr,
 				units,
 				precision = L.Util.extend({}, defaultPrecision, precision);
 
